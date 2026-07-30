@@ -1,8 +1,25 @@
 aid: luzia
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/luzia.png
 name: Luzia
-description: 'Luzia is a company surfaced as a portfolio company of prosus-ventures and added to the API
-  Evangelist network as a stub for enrichment. Sector: ai. This profile is a lead awaiting the enrichment
-  pipeline.'
+description: 'Luzia is a consumer-facing artificial intelligence assistant serving 85M+ users across
+  web, iOS, Android, desktop, and WhatsApp, with a strong presence in Spanish- and Portuguese-speaking
+  markets where it ranks as the #1 app in several countries. The free assistant offers AI chat, image
+  generation, PDF understanding, web search, and an agentic "LuziClaw" task mode, with a Luzia+ premium
+  subscription adding advanced reasoning, custom AI characters, and higher generation limits. Luzia is a
+  portfolio company of Prosus Ventures. As of this enrichment pass, Luzia publishes no public developer
+  API, developer portal, or documentation surface; this profile captures its public identity and
+  domain-security posture.'
 url: https://raw.githubusercontent.com/api-evangelist/luzia/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -12,10 +29,16 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
 tags:
 - Company
 - Ai
+- Artificial Intelligence
+- AI Assistant
+- Chatbot
+- Consumer
+- Image Generation
+- WhatsApp
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -25,3 +48,18 @@ maintainers:
 common:
 - type: Website
   url: https://luzia.com
+- type: SignUp
+  url: https://chat.luzia.com/
+- type: Blog
+  url: https://luzia.com/actualidad
+- type: PrivacyPolicy
+  url: https://luzia.com/politica-de-privacidad
+- type: TermsOfService
+  url: https://luzia.com/terminos-y-condiciones
+- type: DomainSecurity
+  url: security/luzia-domain-security.yml
+x-enrichment:
+  date: '2026-07-20'
+  status: minimal
+  artifacts_added: 1
+  pass: local-v1
